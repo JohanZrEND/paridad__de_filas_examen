@@ -18,6 +18,5 @@ def comprobar_bytes_linea(bytes_a_comprobar):
 
     return resultados
 
-
 lista_de_resultados = comprobar_bytes_linea(bytes_a_comprobar)
 print(lista_de_resultados)
