@@ -10,10 +10,11 @@ bytes_a_comprobar = [
 ]
 
 def comprobar_bytes_linea():
-    contador = 0
-    for linea in bytes_a_comprobar[contador]:
+    for linea in bytes_a_comprobar:
         total_de_1 = linea.count(1)
         print(total_de_1)
-        contador += 1
-        
-comprobar_bytes_linea()
+
+lista_de_resultados = comprobar_bytes_linea()
+print(lista_de_resultados)
+
+
